@@ -1,0 +1,26 @@
+# CODEOWNERS file
+# This file automatically assigns reviewers to pull requests
+
+# Default owner for everything
+* @kemboibilly408-cell
+
+# Data science specific
+src/models/ @kemboibilly408-cell
+src/features/ @kemboibilly408-cell
+src/data/ @kemboibilly408-cell
+
+# Tests and quality
+tests/ @kemboibilly408-cell
+pytest.ini @kemboibilly408-cell
+.flake8 @kemboibilly408-cell
+
+# Configuration files
+*.yml @kemboibilly408-cell
+*.yaml @kemboibilly408-cell
+requirements.txt @kemboibilly408-cell
+setup.py @kemboibilly408-cell
+
+# Documentation
+README.md @kemboibilly408-cell
+CONTRIBUTING.md @kemboibilly408-cell
+docs/ @kemboibilly408-cell
